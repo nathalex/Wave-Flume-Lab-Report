@@ -267,7 +267,7 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 	For the first 2 waves, the measured celerities are closest to the group velocity (or the shallow-water celerity), whereas for the third wave, the measured celerity is nearest to the theoretical celerity (this could be due to experimental error, or partially to the fact that out of the 3 sets of waves, the 3rd one corresponds to a deeper-water regime).
 	\subsection{Different speeds of energy propagation in the wave front}
 	%Repeat the previous analysis using times when wave heights at the probes positions	almost reach the height of a developed wave (say 95\%). Calculate the corresponding velocity for each wave. Compare it with the theoretical values of celerity, group velocity and shallow water celerity. Why do you observe different speeds of energy propagation in the wave front?
-	For Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}, the wave height at the location of each probe grew to a small value (at 95\% of the height of a developed regular wave) is identified by the blue and orange curves crossing the green line (the exact values determined programatically \cite{code}). The values for measured celerity, theoretical celerity, and shallow water celerity from the previous section still hold. However, the waves here are not shallow, they are of the depth-regime previously specified: the first 2 waves qualified previously as transitional water and the 3rd wave as deep water. Therefore, the group velocity  $C_g$ for the first 2 waves is :
+	For Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}, the wave height at the location of each probe grew to a large value (at 95\% of the height of a developed regular wave) is identified by the blue and orange curves crossing the green line (the exact values determined programatically \cite{code}). The values for measured celerity, theoretical celerity, and shallow water celerity from the previous section still hold. However, the waves here are not shallow, they are of the depth-regime previously specified: the first 2 waves qualified previously as transitional water and the 3rd wave as deep water. Therefore, the group velocity  $C_g$ for the first 2 waves is :
 	\begin{itemize}
 		\item \( \displaystyle C_g = \frac{1 + \frac{4\pi h/L}{sinh(4\pi h/L)}}{2} * C \) for the first 2 waves (using the previously calculated theoretical wavelengths)
 		\begin{list}{$\circ$}{}
@@ -301,6 +301,12 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\caption{Random Sea State: randomly generated waves - analysis at different scales}
 		\label{randomgraph}
 	\end{figure}
+	Each period and height in the random wave sequence represented in Figure \ref{randomgraph} was collected programatically, from which the root mean square wave height $H_{RMS}$, the significant wave height $H_s$ and the mean zero-crossing period $T_z = T_0$ have been computed using the following formulae where N is the number of periods in the record, total:
+	\begin{itemize}
+		\item \( \displaystyle H_{RMS} = (\frac{1}{2}\sum_{i = 1}^{N}H_i^2)^{1/2} = \) \textbf{4.199038328054618 cm}
+		\item \( \displaystyle H_s=\sqrt{2} H_{RMS} =\) \textbf{5.938336952459287 cm}
+		\item \( \displaystyle T_0 = \frac{1}{N}\sum_{i = 1}^{N} T_{0,i} =\) \textbf{0.8984638554216868 s}
+	\end{itemize}
 	\subsection{Maximum wave height for 3 hour storm at project site}
 	Use Froude similarity law to scale the random wave experimental data to full-scale	conditions of your Design Project site. Calculate the corresponding values of $H_s$, $T_z$ and the duration of the wave sequence. Assuming Rayleigh distribution, find	expected maximum wave height for a 3 hours storm at your project site. Comment on the applicability of Rayleigh distribution.
 	\section{Conclusions}
