@@ -115,7 +115,7 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\caption{Regular Wave Record Analysis: table of celerities}
 		\label{celeritytable}
 	\end{table}
-	The measured celerities of the first 2 waves are identical to the theoretical celerity values to $10^{-1}$ degrees of precision. These differences can be attributed to the inevitable experimental errors (coming from refections and probe calibration for example). The 3rd wave's measured and theoretical celerities are more different, only identical to $10^{1}$ degrees of precision.
+	The measured celerities of the first 2 waves are identical to the theoretical celerity values to $10^{-1}$ degrees of precision. These differences can be attributed to the inevitable experimental errors (coming from refections and probe calibration for example). The 3rd wave's measured and theoretical celerities are more different, only identical to $1$ degree of precision.
 	\subsection{Wave length calculation}
 	%Use the experimental phase velocities to calculate wave length of each wave. Compare the calculated values with theoretical ones. For each wave determine if it corresponds	to Shallow-water, intermediate-water or deep-water regime.
 	Using the measured and theoretical periods and celerities, the measured and theoretical lengths of each wave can be calculated as $L = C*T$ m; these measured and theoretical values can then be compared:\\
@@ -132,7 +132,7 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\caption{Regular Wave Record Analysis: table of lengths}
 		\label{lengthtable}
 	\end{table}
-	As expected (given the results for the measured celerity), the theoretical and measured values of the first 2 waves are identical to $10^{-2}$ degrees of precision, and the 3rd to $10^1$. From these results, it can be determined for each wave if it corresponds	to shallow-water, intermediate-water or deep-water regime: given the water depth (\ref{experiment}) $d = 40$cm or $d = 0.40$ m, and that:
+	As expected (given the results for the measured celerity), the theoretical and measured values of the first 2 waves are identical to $10^{-2}$ degrees of precision, and the 3rd to $1$ degree. From these results, it can be determined for each wave if it corresponds	to shallow-water, intermediate-water or deep-water regime: given the water depth (\ref{experiment}) $d = 40$cm or $d = 0.40$ m, and that:
 	\begin{itemize}
 		\item shallow water: $d/L < 1/25$
 		\item transitional water: $1/25 < d/L < 1/2$
@@ -203,7 +203,7 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 	\end{figure}
 	The previous Figures \ref{f05a4allprobes}, \ref{f10a3allprobes}, and \ref{f15a2allprobes} show analyses of developed periodic wave records for all probes compared to each other and to a regular sine wave of the same freqency and amplitude. These graphs show that the wave amplitudes are indeed \textbf{not} constant in space or time, as probes 1 and 5 for the 1st wave show higher peaks and shallower troughs than the rest of the probes as well as the sine wave, for example, and probe 5 for the 3rd waves shows overall lower peaks as well as shallower troughs. The inconsistencies with the first and last probes can be associated with the probes' proximity to the 2 wavemakers, and overall amplitude inconsistencies in the experiment can also be associated with experimental error (such as wave probe calibration imperfection, residual wave reflections, etc..) as well as, again, the mismatch between the linear wave generation, and the non-linear nature of the waves (assymetry in wave shape also leads to different wave amplitudes at different locations).
 	\subsection{Wave front evolution}
-	%Analyse the wave front evolution recorded by probes 1 and 5. Compare the times when the wave height at the location of each probe growth to a small value (say 5\% of the height of a developed regular wave). 2 Use the time difference to calculate the	speed of the wave front for different wave frequencies. Compare it with the theoretical	values of celerity, group velocity and shallow water celerity.
+	%Analyse the wave front evolution recorded by probes 1 and 5. Compare the times when the wave height at the location of each probe growth to a small value (say 5\% of the height of a developed regular wave). 2 Use the time difference to calculate the speed of the wave front for different wave frequencies. Compare it with the theoretical	values of celerity, group velocity and shallow water celerity.
 	The wave front evolution can be analysed using probes 1 and 5's recordings for all the waves, specifically observing the beginning of the waves. The peaks and troughs of the values are encompassed by envelopes:\\
 	\begin{figure}[H]
 		\centering
@@ -249,38 +249,58 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\caption{Regular Waves (Frequency = 1.5Hz, Amplitude = 2cm): Probes 1 and 5 envelopes comparison}
 		\label{f15a2envelopes}
 	\end{figure}
-	For Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}, the wave height at the location of each probe grew to a small value (at 5\% of the height of a developed regular wave) is identified by the blue and orange curves crossing the purple line (the exact values determined programatically \cite{code}). There are 8m between probes and 5 \ref{experiment}, so we have $C_M = 8/(P_5 - P_1)$ where $P_5$ and $P_1$ are the probe 5 and 1 crossings, respectively. The following values in Table \ref{smallwavefronttable} can be derived:\\
-	% Please add the following required packages to your document preamble:
-	% \usepackage{multirow}
+	For Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}, the wave height at the location of each probe grew to a small value (at 5\% of the height of a developed regular wave) is identified by the blue and orange curves crossing the purple line (the exact values determined programatically \cite{code}). There are 8m between probes and 5 \ref{experiment}, so $C_M = 8/(P_5 - P_1)$ where $P_5$ and $P_1$ are the probe 5 and 1 crossings, respectively. The values calculated for theoretical celerity $C$ in previous sections still hold. 
+	5\% of each of these waves' amplitudes qualifies as shallow water, therefore the group velocity $C_g$ for all these waves is  the same as shallow water celerity $C_s = \sqrt{gh} = \sqrt{9.80665 * 0.40} = 1.98057$ m/s for all waves.\\
+	The following values in Table \ref{smallwavefronttable} can therefore be derived in order to compare them:\\
 	\begin{table}[H]
 		\centering
-		\begin{tabular}{|c|c|c|c|c|c|c|}
+		\begin{tabular}{|c|c|c|c|c|c|}
 			\hline
-			Amplitude & \textbf{$P_1$} & \textbf{$P_5$} & \textbf{Measured Celerity} & \textbf{Theoretical Celerity} & Group Velocity & Shallow Water Celerity\\ \hline
-			$A = 4$ cm & 0.78s & 4.67s & $C_M = 2.05655527$ m/s & $C = 1.84747746$ m/s & x & x\\ \hline
-			$A = 3$ cm & 1.51s & 5.91s & $C_M = 1.81818182$ m/s & $C = 1.4637472$ m/s & x & x\\ \hline
-			$A = 2$ cm & 1.96s & 9.94s & $C_M = 1.33779264$ m/s & $C = 1.04448977$ m/s & x & x \\ \hline
+			Amplitude & \textbf{$P_1$} & \textbf{$P_5$} & \textbf{Measured Celerity} & Theoretical Celerity & Group Velocity  = Shallow Water Celerity\\ \hline
+			$A = 4$ cm & 0.78s & 4.67s & $C_M = 2.05655527$ m/s & $C = 1.84747746$ m/s & {\multirow{3}{*}{$C_g = C_s = 1.98057$ m/s}}\\ \cline{1-5}
+			$A = 3$ cm & 1.51s & 5.91s & $C_M = 1.81818182$ m/s & $C = 1.4637472$ m/s & {} \\ \cline{1-5}
+			$A = 2$ cm & 1.85s & 7.83s & $C_M = 1.33779264$ m/s & $C = 1.04448977$ m/s & {} \\ \hline
 		\end{tabular}
 	\caption{Table of celerity calculations: probes 1 and 5 first recording of 5\% of the wave amplitude}
 	\label{smallwavefronttable}
 	\end{table}
+	For the first 2 waves, the measured celerities are closest to the group velocity (or the shallow-water celerity), whereas for the third wave, the measured celerity is nearest to the theoretical celerity (this could be due to experimental error, or partially to the fact that out of the 3 sets of waves, the 3rd one corresponds to a deeper-water regime).
 	\subsection{Different speeds of energy propagation in the wave front}
 	%Repeat the previous analysis using times when wave heights at the probes positions	almost reach the height of a developed wave (say 95\%). Calculate the corresponding velocity for each wave. Compare it with the theoretical values of celerity, group velocity and shallow water celerity. Why do you observe different speeds of energy propagation in the wave front?
-	For Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}, the wave height at the location of each probe grew to a small value (at 95\% of the height of a developed regular wave) is identified by the blue and orange curves crossing the green line (the exact values determined programatically \cite{code}). There are 8m between probes and 5 \ref{experiment}, so we have $C_M = 8/(P_5 - P_1)$ where $P_5$ and $P_1$ are the probe 5 and 1 crossings, respectively. The following values in Table \ref{largewavefronttable} can be derived:\\
+	For Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}, the wave height at the location of each probe grew to a small value (at 95\% of the height of a developed regular wave) is identified by the blue and orange curves crossing the green line (the exact values determined programatically \cite{code}). The values for measured celerity, theoretical celerity, and shallow water celerity from the previous section still hold. However, the waves here are not shallow, they are of the depth-regime previously specified: the first 2 waves qualified previously as transitional water and the 3rd wave as deep water. Therefore, the group velocity  $C_g$ for the first 2 waves is :
+	\begin{itemize}
+		\item \( \displaystyle C_g = \frac{1 + \frac{4\pi h/L}{sinh(4\pi h/L)}}{2} * C \) for the first 2 waves (using the previously calculated theoretical wavelengths)
+		\begin{list}{$\circ$}{}
+			\item \( \displaystyle C_g = \frac{1 + \frac{4\pi 0.40/3.69495492}{sinh(4\pi 0.40/3.69495492)}}{2} * C = 0.873617 * C = 1.61398772\) m/s for wave 1
+			\item \( \displaystyle C_g = \frac{1 + \frac{4\pi 0.40/}{sinh(4\pi 0.40/1.46373472)}}{2} * C = 0.610884 * C = 0.894179745\) m/s for wave 2
+		\end{list}
+		\item $C_g = \frac{C}{2} = 0.522244885$ m/s for the 3rd wave
+	\end{itemize} The following values in Table \ref{largewavefronttable} can therefore be derived:\\
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|c|c|c|c|}
 			\hline
-			Amplitude & \textbf{$P_1$} & \textbf{$P_5$} & \textbf{Measured Celerity} & \textbf{Theoretical Celerity} & Group Velocity & Shallow Water Celerity\\ \hline
-			$A = 4$ cm & 2.8s & 8.68s & $C_M = 1.36054422$ m/s & $C = 1.84747746$ m/s & x & x\\ \hline
-			$A = 3$ cm & 4.46s & 14.78s & $C_M = 0.775193799$ m/s & $C = 1.4637472$ m/s & x & x\\ \hline
-			$A = 2$ cm & 6.3s & 21.92s & $C_M = 0.512163893$ m/s & $C = 1.04448977$ m/s & x & x \\ \hline
+			Amplitude & \textbf{$P_1$} & \textbf{$P_5$} & \textbf{Measured Celerity} & Theoretical Celerity & Group Velocity & Shallow Water Celerity\\ \hline
+			$A = 4$ cm & 2.8s & 8.68s & $C_M = 1.36054422$ m/s & $C = 1.84747746$ m/s & $C_g = 1.61398772$ m/s &{\multirow{3}{*}{$C_s = 1.98057$ m/s}}\\ \cline{1-6}
+			$A = 3$ cm & 4.46s & 14.78s & $C_M = 0.775193799$ m/s & $C = 1.4637472$ m/s & $C_g = 0.894179745$ m/s & {}\\ \cline{1-6}
+			$A = 2$ cm & 6.3s & 21.92s & $C_M = 0.512163893$ m/s & $C = 1.04448977$ m/s & $C_g = 0.522244885$ m/s & {} \\ \hline
 		\end{tabular}
 		\caption{Table of celerity calculations: probes 1 and 5 first recording of 95\% of the wave amplitude}
 		\label{largewavefronttable}
 	\end{table}
+	Here, all the measured celerities are nearest in value to the group velocity.\\
+	Different speeds of energy propagation in the wave front are observed as the more reliable of all the theoretical celerities was shown here to be the one that fluctuates depending on the depth regime of the water observed: the group velocity. Reasons for this include probes 1 and 5's proximities to the wavemakers performing opposing actions (and the absorbing plate), as well as the mismatch between the nonlinear nature of the waves and the supposedly linear wave generation, and finally, experimental errors. Certain fluctuations are also more likely to have inaccuracies, as the absorbing mechanism is more effective at reducing the longer waves: shorter waves are therefore more likely to be counteracted by unabsorbed reflections, possibly explaining the 3rd wave's measured celerity in the previous section. 
 	\subsection{Random wave record analysis}
-	Analyse a random wave record for probe 3. Calculate the significant wave height	($H_s$) and the mean zero-crossing period ($T_z$) of this wave sequence.
+	%Analyse a random wave record for probe 3. Calculate the significant wave height	($H_s$) and the mean zero-crossing period ($T_z$) of this wave sequence.
+	\begin{figure}[H]
+		\centering
+		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=\textwidth]{../graphs/Rand1thGraph.png}}
+		\\
+		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=\textwidth]{../graphs/Rand5thGraph.png}}\\
+		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=\textwidth]{../graphs/Rand50thGraph.png}}
+		\caption{Random Sea State: randomly generated waves - analysis at different scales}
+		\label{randomgraph}
+	\end{figure}
 	\subsection{Maximum wave height for 3 hour storm at project site}
 	Use Froude similarity law to scale the random wave experimental data to full-scale	conditions of your Design Project site. Calculate the corresponding values of $H_s$, $T_z$ and the duration of the wave sequence. Assuming Rayleigh distribution, find	expected maximum wave height for a 3 hours storm at your project site. Comment on the applicability of Rayleigh distribution.
 	\section{Conclusions}
