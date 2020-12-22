@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{subfig}
+\usepackage{multirow}
 \setlength\parindent{0pt}
 
 % \begin{reusefigure}[<float spec>]{<ref>}
@@ -230,26 +231,54 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 	These envelopes can then be directly compared to each other (as seen in Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}):\\
 	\begin{figure}[H]
 		\centering
-		\includegraphics[clip, trim = {1cm 0.2cm 1cm 0.5cm},width=\textwidth]{../graphs/F05A4Probes1and5Envelope.png}
+		\includegraphics[clip, trim = {1cm 0.1cm 1cm 0.5cm},width=\textwidth]{../graphs/F05A4Probes1and5Envelope.png}
 		\caption{Regular Waves (Frequency = 0.5Hz, Amplitude = 4cm): Probes 1 and 5 envelopes comparison}
 		\label{f05a4envelopes}
 	\end{figure}
 	\vspace{-.5cm}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[clip, trim = {1cm 0.2cm 1cm 0.5cm},width=\textwidth]{../graphs/F10A3Probes1and5Envelope.png}
+		\includegraphics[clip, trim = {1cm 0.1cm 1cm 0.5cm},width=\textwidth]{../graphs/F10A3Probes1and5Envelope.png}
 		\caption{Regular Waves (Frequency = 1.0Hz, Amplitude = 3cm): Probes 1 and 5 envelopes comparison}
 		\label{f10a3envelopes}
 	\end{figure}
 	\vspace{-.5cm}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[clip, trim = {1cm 0.2cm 1cm 0.5cm},width=\textwidth]{../graphs/F15A2Probes1and5Envelope.png}
+		\includegraphics[clip, trim = {1cm 0.1cm 1cm 0.5cm},width=\textwidth]{../graphs/F15A2Probes1and5Envelope.png}
 		\caption{Regular Waves (Frequency = 1.5Hz, Amplitude = 2cm): Probes 1 and 5 envelopes comparison}
 		\label{f15a2envelopes}
 	\end{figure}
+	For Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}, the wave height at the location of each probe grew to a small value (at 5\% of the height of a developed regular wave) is identified by the blue and orange curves crossing the purple line (the exact values determined programatically \cite{code}). There are 8m between probes and 5 \ref{experiment}, so we have $C_M = 8/(P_5 - P_1)$ where $P_5$ and $P_1$ are the probe 5 and 1 crossings, respectively. The following values in Table \ref{smallwavefronttable} can be derived:\\
+	% Please add the following required packages to your document preamble:
+	% \usepackage{multirow}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+			\hline
+			Amplitude & \textbf{$P_1$} & \textbf{$P_5$} & \textbf{Measured Celerity} & \textbf{Theoretical Celerity} & Group Velocity & Shallow Water Celerity\\ \hline
+			$A = 4$ cm & 0.78s & 4.67s & $C_M = 2.05655527$ m/s & $C = 1.84747746$ m/s & x & x\\ \hline
+			$A = 3$ cm & 1.51s & 5.91s & $C_M = 1.81818182$ m/s & $C = 1.4637472$ m/s & x & x\\ \hline
+			$A = 2$ cm & 1.96s & 9.94s & $C_M = 1.33779264$ m/s & $C = 1.04448977$ m/s & x & x \\ \hline
+		\end{tabular}
+	\caption{Table of celerity calculations: probes 1 and 5 first recording of 5\% of the wave amplitude}
+	\label{smallwavefronttable}
+	\end{table}
 	\subsection{Different speeds of energy propagation in the wave front}
-	Repeat the previous analysis using times when wave heights at the probes positions	almost reach the height of a developed wave (say 95\%). Calculate the corresponding velocity for each wave. Compare it with the theoretical values of celerity, group velocity and shallow water celerity. Why do you observe different speeds of energy propagation in the wave front?
+	%Repeat the previous analysis using times when wave heights at the probes positions	almost reach the height of a developed wave (say 95\%). Calculate the corresponding velocity for each wave. Compare it with the theoretical values of celerity, group velocity and shallow water celerity. Why do you observe different speeds of energy propagation in the wave front?
+	For Figures \ref{f05a4envelopes}, \ref{f10a3envelopes}, and \ref{f15a2envelopes}, the wave height at the location of each probe grew to a small value (at 95\% of the height of a developed regular wave) is identified by the blue and orange curves crossing the green line (the exact values determined programatically \cite{code}). There are 8m between probes and 5 \ref{experiment}, so we have $C_M = 8/(P_5 - P_1)$ where $P_5$ and $P_1$ are the probe 5 and 1 crossings, respectively. The following values in Table \ref{largewavefronttable} can be derived:\\
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+			\hline
+			Amplitude & \textbf{$P_1$} & \textbf{$P_5$} & \textbf{Measured Celerity} & \textbf{Theoretical Celerity} & Group Velocity & Shallow Water Celerity\\ \hline
+			$A = 4$ cm & 2.8s & 8.68s & $C_M = 1.36054422$ m/s & $C = 1.84747746$ m/s & x & x\\ \hline
+			$A = 3$ cm & 4.46s & 14.78s & $C_M = 0.775193799$ m/s & $C = 1.4637472$ m/s & x & x\\ \hline
+			$A = 2$ cm & 6.3s & 21.92s & $C_M = 0.512163893$ m/s & $C = 1.04448977$ m/s & x & x \\ \hline
+		\end{tabular}
+		\caption{Table of celerity calculations: probes 1 and 5 first recording of 95\% of the wave amplitude}
+		\label{largewavefronttable}
+	\end{table}
 	\subsection{Random wave record analysis}
 	Analyse a random wave record for probe 3. Calculate the significant wave height	($H_s$) and the mean zero-crossing period ($T_z$) of this wave sequence.
 	\subsection{Maximum wave height for 3 hour storm at project site}

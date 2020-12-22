@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.28)  22 DEC 2020 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.28)  22 DEC 2020 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -220,35 +220,42 @@ Package caption Info: hyperref package is loaded.
 \sf@top=\skip47
 \sf@bottom=\skip48
 )
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip49
+\multirow@cntb=\count109
+\multirow@dima=\skip50
+\bigstrutjot=\dimen125
+)
 (./labreport.aux)
 \openout1 = `labreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count109
+\c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./labreport.out) (./labreport.out)
 \@outlinefile=\write3
@@ -291,16 +298,16 @@ LaTeX Info: Redefining \nameref on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen125
+\scratchcounter=\count111
+\scratchdimen=\dimen126
 \scratchbox=\box29
-\nofMPsegments=\count111
-\nofMParguments=\count112
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen126
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen127
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -323,100 +330,100 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <12> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
+(Font)              <6> on input line 26.
 <../graphs/RiskAssessment.png, id=56, 544.1931pt x 695.2374pt>
 File: ../graphs/RiskAssessment.png Graphic file (type png)
 <use ../graphs/RiskAssessment.png>
-Package pdftex.def Info: ../graphs/RiskAssessment.png  used on input line 28.
+Package pdftex.def Info: ../graphs/RiskAssessment.png  used on input line 29.
 (pdftex.def)             Requested size: 402.53403pt x 514.25545pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
+(Font)              <7> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 32.
+(Font)              <5> on input line 33.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../graphs/RiskAssessment.p
 ng>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
 <../graphs/experiment.png, id=70, 1310.8975pt x 256.96pt>
 File: ../graphs/experiment.png Graphic file (type png)
 <use ../graphs/experiment.png>
-Package pdftex.def Info: ../graphs/experiment.png  used on input line 44.
+Package pdftex.def Info: ../graphs/experiment.png  used on input line 45.
 (pdftex.def)             Requested size: 270.15883pt x 47.09184pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--47
+Underfull \hbox (badness 10000) in paragraph at lines 41--48
 
  []
 
 <../graphs/F05A4Graph.png, id=75, 1084.05pt x 361.35pt>
 File: ../graphs/F05A4Graph.png Graphic file (type png)
 <use ../graphs/F05A4Graph.png>
-Package pdftex.def Info: ../graphs/F05A4Graph.png  used on input line 54.
+Package pdftex.def Info: ../graphs/F05A4Graph.png  used on input line 55.
 (pdftex.def)             Requested size: 540.31767pt x 192.73083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--57
+Underfull \hbox (badness 10000) in paragraph at lines 52--58
 
  []
 
 <../graphs/F10A3Graph.png, id=77, 1084.05pt x 361.35pt>
 File: ../graphs/F10A3Graph.png Graphic file (type png)
 <use ../graphs/F10A3Graph.png>
-Package pdftex.def Info: ../graphs/F10A3Graph.png  used on input line 60.
+Package pdftex.def Info: ../graphs/F10A3Graph.png  used on input line 61.
 (pdftex.def)             Requested size: 540.31767pt x 201.33488pt.
 <../graphs/F15A2Graph.png, id=79, 1084.05pt x 361.35pt>
 File: ../graphs/F15A2Graph.png Graphic file (type png)
 <use ../graphs/F15A2Graph.png>
-Package pdftex.def Info: ../graphs/F15A2Graph.png  used on input line 66.
+Package pdftex.def Info: ../graphs/F15A2Graph.png  used on input line 67.
 (pdftex.def)             Requested size: 540.31767pt x 201.33488pt.
 [2 <../graphs/experiment.png> <../graphs/F05A4Graph.png>]
 <../graphs/F05A4Period.png, id=95, 722.7pt x 156.585pt>
 File: ../graphs/F05A4Period.png Graphic file (type png)
 <use ../graphs/F05A4Period.png>
-Package pdftex.def Info: ../graphs/F05A4Period.png  used on input line 73.
+Package pdftex.def Info: ../graphs/F05A4Period.png  used on input line 74.
 (pdftex.def)             Requested size: 540.31767pt x 132.75142pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--76
+Underfull \hbox (badness 10000) in paragraph at lines 71--77
 
  []
 
 <../graphs/F10A3Period.png, id=97, 722.7pt x 154.5775pt>
 File: ../graphs/F10A3Period.png Graphic file (type png)
 <use ../graphs/F10A3Period.png>
-Package pdftex.def Info: ../graphs/F10A3Period.png  used on input line 79.
+Package pdftex.def Info: ../graphs/F10A3Period.png  used on input line 80.
 (pdftex.def)             Requested size: 540.31767pt x 131.04947pt.
 <../graphs/F15A2Period.png, id=99, 722.7pt x 157.58875pt>
 File: ../graphs/F15A2Period.png Graphic file (type png)
 <use ../graphs/F15A2Period.png>
-Package pdftex.def Info: ../graphs/F15A2Period.png  used on input line 85.
+Package pdftex.def Info: ../graphs/F15A2Period.png  used on input line 86.
 (pdftex.def)             Requested size: 540.31767pt x 133.60239pt.
 [3 <../graphs/F10A3Graph.png> <../graphs/F15A2Graph.png> <../graphs/F05A4Period
 .png>]
-Overfull \hbox (11.66185pt too wide) in paragraph at lines 92--100
+Overfull \hbox (11.66185pt too wide) in paragraph at lines 93--101
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--102
+Underfull \hbox (badness 10000) in paragraph at lines 90--103
 
  []
 
 
-Overfull \hbox (4.51143pt too wide) in paragraph at lines 107--114
+Overfull \hbox (4.51143pt too wide) in paragraph at lines 108--115
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--133
+Underfull \hbox (badness 10000) in paragraph at lines 121--134
 
  []
 
@@ -424,51 +431,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--133
 <../graphs/celerityvslength.png, id=133, 722.7pt x 361.35pt>
 File: ../graphs/celerityvslength.png Graphic file (type png)
 <use ../graphs/celerityvslength.png>
-Package pdftex.def Info: ../graphs/celerityvslength.png  used on input line 158
+Package pdftex.def Info: ../graphs/celerityvslength.png  used on input line 159
 .
 (pdftex.def)             Requested size: 540.31767pt x 270.16272pt.
 <../graphs/F05A4Probe3.png, id=134, 433.62pt x 289.08pt>
 File: ../graphs/F05A4Probe3.png Graphic file (type png)
 <use ../graphs/F05A4Probe3.png>
-Package pdftex.def Info: ../graphs/F05A4Probe3.png  used on input line 167.
+Package pdftex.def Info: ../graphs/F05A4Probe3.png  used on input line 168.
 (pdftex.def)             Requested size: 178.30582pt x 129.03056pt.
 <../graphs/F10A3Probe3.png, id=136, 433.62pt x 289.08pt>
 File: ../graphs/F10A3Probe3.png Graphic file (type png)
 <use ../graphs/F10A3Probe3.png>
-Package pdftex.def Info: ../graphs/F10A3Probe3.png  used on input line 168.
+Package pdftex.def Info: ../graphs/F10A3Probe3.png  used on input line 169.
 (pdftex.def)             Requested size: 178.30582pt x 129.03056pt.
 <../graphs/F15A2Probe3.png, id=138, 433.62pt x 289.08pt>
 File: ../graphs/F15A2Probe3.png Graphic file (type png)
 <use ../graphs/F15A2Probe3.png>
-Package pdftex.def Info: ../graphs/F15A2Probe3.png  used on input line 169.
+Package pdftex.def Info: ../graphs/F15A2Probe3.png  used on input line 170.
 (pdftex.def)             Requested size: 178.30582pt x 129.03056pt.
  [5 <../graphs/celerityvslength.png>]
 <../graphs/Probe3.png, id=148, 1084.05pt x 578.16pt>
 File: ../graphs/Probe3.png Graphic file (type png)
 <use ../graphs/Probe3.png>
-Package pdftex.def Info: ../graphs/Probe3.png  used on input line 176.
+Package pdftex.def Info: ../graphs/Probe3.png  used on input line 177.
 (pdftex.def)             Requested size: 540.31767pt x 290.2939pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--179
+Underfull \hbox (badness 10000) in paragraph at lines 174--180
 
  []
 
 <../graphs/F05A4AllProbes.png, id=150, 1228.59pt x 361.35pt>
 File: ../graphs/F05A4AllProbes.png Graphic file (type png)
 <use ../graphs/F05A4AllProbes.png>
-Package pdftex.def Info: ../graphs/F05A4AllProbes.png  used on input line 185.
+Package pdftex.def Info: ../graphs/F05A4AllProbes.png  used on input line 186.
 (pdftex.def)             Requested size: 540.31767pt x 165.88487pt.
 <../graphs/F10A3AllProbes.png, id=152, 1228.59pt x 361.35pt>
 File: ../graphs/F10A3AllProbes.png Graphic file (type png)
 <use ../graphs/F10A3AllProbes.png>
-Package pdftex.def Info: ../graphs/F10A3AllProbes.png  used on input line 192.
+Package pdftex.def Info: ../graphs/F10A3AllProbes.png  used on input line 193.
 (pdftex.def)             Requested size: 540.31767pt x 165.88487pt.
 [6 <../graphs/F05A4Probe3.png> <../graphs/F10A3Probe3.png> <../graphs/F15A2Prob
 e3.png> <../graphs/Probe3.png>]
 <../graphs/F15A2AllProbes.png, id=171, 1228.59pt x 361.35pt>
 File: ../graphs/F15A2AllProbes.png Graphic file (type png)
 <use ../graphs/F15A2AllProbes.png>
-Package pdftex.def Info: ../graphs/F15A2AllProbes.png  used on input line 199.
+Package pdftex.def Info: ../graphs/F15A2AllProbes.png  used on input line 200.
 (pdftex.def)             Requested size: 540.31767pt x 165.88487pt.
  [7 <../graphs/F05A4AllProbes.png> <../graphs/F10A3AllProbes.png> <../graphs/F1
 5A2AllProbes.png>]
@@ -476,16 +483,16 @@ Package pdftex.def Info: ../graphs/F15A2AllProbes.png  used on input line 199.
 File: ../graphs/F05A4Probe1Envelope.png Graphic file (type png)
 <use ../graphs/F05A4Probe1Envelope.png>
 Package pdftex.def Info: ../graphs/F05A4Probe1Envelope.png  used on input line 
-209.
+210.
 (pdftex.def)             Requested size: 270.15883pt x 140.63081pt.
 <../graphs/F05A4Probe5Envelope.png, id=193, 722.7pt x 361.35pt>
 File: ../graphs/F05A4Probe5Envelope.png Graphic file (type png)
 <use ../graphs/F05A4Probe5Envelope.png>
 Package pdftex.def Info: ../graphs/F05A4Probe5Envelope.png  used on input line 
-210.
+211.
 (pdftex.def)             Requested size: 270.15883pt x 140.63081pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--213
+Underfull \hbox (badness 10000) in paragraph at lines 207--214
 
  []
 
@@ -493,34 +500,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--213
 File: ../graphs/F10A3Probe1Envelope.png Graphic file (type png)
 <use ../graphs/F10A3Probe1Envelope.png>
 Package pdftex.def Info: ../graphs/F10A3Probe1Envelope.png  used on input line 
-217.
+218.
 (pdftex.def)             Requested size: 270.15883pt x 140.63081pt.
 <../graphs/F10A3Probe5Envelope.png, id=197, 722.7pt x 361.35pt>
 File: ../graphs/F10A3Probe5Envelope.png Graphic file (type png)
 <use ../graphs/F10A3Probe5Envelope.png>
 Package pdftex.def Info: ../graphs/F10A3Probe5Envelope.png  used on input line 
-218.
+219.
 (pdftex.def)             Requested size: 270.15883pt x 140.63081pt.
 <../graphs/F15A2Probe1Envelope.png, id=199, 722.7pt x 361.35pt>
 File: ../graphs/F15A2Probe1Envelope.png Graphic file (type png)
 <use ../graphs/F15A2Probe1Envelope.png>
 Package pdftex.def Info: ../graphs/F15A2Probe1Envelope.png  used on input line 
-225.
+226.
 (pdftex.def)             Requested size: 270.15883pt x 140.63081pt.
 <../graphs/F15A2Probe5Envelope.png, id=201, 722.7pt x 361.35pt>
 File: ../graphs/F15A2Probe5Envelope.png Graphic file (type png)
 <use ../graphs/F15A2Probe5Envelope.png>
 Package pdftex.def Info: ../graphs/F15A2Probe5Envelope.png  used on input line 
-226.
+227.
 (pdftex.def)             Requested size: 270.15883pt x 140.63081pt.
 <../graphs/F05A4Probes1and5Envelope.png, id=206, 794.97pt x 289.08pt>
 File: ../graphs/F05A4Probes1and5Envelope.png Graphic file (type png)
 <use ../graphs/F05A4Probes1and5Envelope.png>
 Package pdftex.def Info: ../graphs/F05A4Probes1and5Envelope.png  used on input 
-line 233.
-(pdftex.def)             Requested size: 540.31767pt x 197.04607pt.
+line 234.
+(pdftex.def)             Requested size: 540.31767pt x 199.12881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--236
+Underfull \hbox (badness 10000) in paragraph at lines 231--237
 
  []
 
@@ -528,8 +535,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--236
 File: ../graphs/F10A3Probes1and5Envelope.png Graphic file (type png)
 <use ../graphs/F10A3Probes1and5Envelope.png>
 Package pdftex.def Info: ../graphs/F10A3Probes1and5Envelope.png  used on input 
-line 240.
-(pdftex.def)             Requested size: 540.31767pt x 197.04607pt.
+line 241.
+(pdftex.def)             Requested size: 540.31767pt x 199.12881pt.
 [8 <../graphs/F05A4Probe1Envelope.png> <../graphs/F05A4Probe5Envelope.png> <../
 graphs/F10A3Probe1Envelope.png> <../graphs/F10A3Probe5Envelope.png> <../graphs/
 F15A2Probe1Envelope.png> <../graphs/F15A2Probe5Envelope.png>]
@@ -537,25 +544,39 @@ F15A2Probe1Envelope.png> <../graphs/F15A2Probe5Envelope.png>]
 File: ../graphs/F15A2Probes1and5Envelope.png Graphic file (type png)
 <use ../graphs/F15A2Probes1and5Envelope.png>
 Package pdftex.def Info: ../graphs/F15A2Probes1and5Envelope.png  used on input 
-line 247.
-(pdftex.def)             Requested size: 540.31767pt x 197.04607pt.
- [9 <../graphs/F05A4Probes1and5Envelope.png> <../graphs/F10A3Probes1and5Envelop
-e.png> <../graphs/F15A2Probes1and5Envelope.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+line 248.
+(pdftex.def)             Requested size: 540.31767pt x 199.12881pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--266
+
+ []
+
+[9 <../graphs/F05A4Probes1and5Envelope.png> <../graphs/F10A3Probes1and5Envelope
+.png> <../graphs/F15A2Probes1and5Envelope.png>]
+Overfull \hbox (10.35884pt too wide) in paragraph at lines 272--279
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--281
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
  (./labreport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
 Package rerunfilecheck Info: File `labreport.out' has not changed.
 (rerunfilecheck)             Checksum: E90298D2596E7FC83E086F40EB0073DE;944.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
  ) 
 Here is how much of TeX's memory you used:
- 6935 strings out of 492982
- 108410 string characters out of 6134896
- 204743 words of memory out of 5000000
- 10383 multiletter control sequences out of 15000+600000
+ 6990 strings out of 492982
+ 109282 string characters out of 6134896
+ 205700 words of memory out of 5000000
+ 10432 multiletter control sequences out of 15000+600000
  8254 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,42p,1094b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -570,10 +591,10 @@ ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
 c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy7.pfb>
-Output written on labreport.pdf (10 pages, 1672625 bytes).
+Output written on labreport.pdf (10 pages, 1683078 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
  368 words of extra memory for PDF output out of 10000 (max. 10000000)
 
