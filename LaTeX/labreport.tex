@@ -18,7 +18,7 @@
 	{\end{figure}}
 
 \title{CEGE0023: Offshore and Coastal Engineering\\
-Laboratory Report - Wave-flume experiment: wave generation and wave-data analysis}
+	Laboratory Report - Wave-flume experiment: wave generation and wave-data analysis}
 \author{Alex (Nathalie Alexandra) Tcherdakoff}
 \date{SN: 18006289 - Computer Science MEng - SoRA}
 \begin{document}
@@ -91,15 +91,15 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|c|c|c|}
-		\hline
-		\multicolumn{3}{|c|}{\textbf{Given Data}} & \multicolumn{3}{c|}{\textbf{Measured Period (determined programmatically)}} \\ \hline
-		Wave Frequency & Amplitude & Theoretical Period & Probe 2 & Probe 3 & Probe 4\\ \hline	
-		$f = 0.5Hz$ & $A=4cm$ & $T=1/0.5=2.00s$ & $34.06  - 32.05 = 2.01s$ & $34.16 - 32.16 = 2.00s$ & $34.28 - 32.28 = 2.00s$\\ \hline
-		$f = 1.0Hz$ & $A=3cm$ & $T=1/1.0=1.00s$ & $33.30 - 32.29 = 1.01s$ & $33.41 - 32.41 = 1.00s$  & $33.57 - 32.57 = 1.00s$\\ \hline
-		$f = 1.5Hz$ & $A=2cm$ & $T =1/1.5=0.67s$ & $32.81 - 32.14 = 0.67$ & $32.98 - 32.31 = 0.67s$ & $33.15 - 32.48 = 0.67$\\ \hline
+			\hline
+			\multicolumn{3}{|c|}{\textbf{Given Data}} & \multicolumn{3}{c|}{\textbf{Measured Period (determined programmatically)}} \\ \hline
+			Wave Frequency & Amplitude & Theoretical Period & Probe 2 & Probe 3 & Probe 4\\ \hline	
+			$f = 0.5Hz$ & $A=4cm$ & $T=1/0.5=2.00s$ & $34.06  - 32.05 = 2.01s$ & $34.16 - 32.16 = 2.00s$ & $34.28 - 32.28 = 2.00s$\\ \hline
+			$f = 1.0Hz$ & $A=3cm$ & $T=1/1.0=1.00s$ & $33.30 - 32.29 = 1.01s$ & $33.41 - 32.41 = 1.00s$  & $33.57 - 32.57 = 1.00s$\\ \hline
+			$f = 1.5Hz$ & $A=2cm$ & $T =1/1.5=0.67s$ & $32.81 - 32.14 = 0.67$ & $32.98 - 32.31 = 0.67s$ & $33.15 - 32.48 = 0.67$\\ \hline
 		\end{tabular}
-	\caption{Regular Wave Record Analysis: table of results}
-	\label{regulartable}
+		\caption{Regular Wave Record Analysis: table of results}
+		\label{regulartable}
 	\end{table}
 	The difference between the theoretical and the measured periods is negligible: they are nearly identical. However, now the comparison can be made between the measured celerities: the theoretical celerity can be determined, as in theory the regular waves can be represented as sine waves where the surface elevation $\eta(x,t) = 2\pi A * sin(t/T - x/L)$ and the theoretical celerity $C = L/T$ (the theoretical celerity in Table \ref{celeritytable} was determined using the provided calculator).
 	The distance between probes 2 and 4 is 0.4m, this as well as the delay between can be used to calculate the measured celerity: $C_M = 0.4/(P_4 - P_2)$ m/s where $P_2$ and $P_4$ are the starting times of the measured periods from Table \ref{regulartable}.
@@ -261,8 +261,8 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 			$A = 3$ cm & 1.51s & 5.91s & $C_M = 1.81818182$ m/s & $C = 1.4637472$ m/s & {} \\ \cline{1-5}
 			$A = 2$ cm & 1.85s & 7.83s & $C_M = 1.33779264$ m/s & $C = 1.04448977$ m/s & {} \\ \hline
 		\end{tabular}
-	\caption{Table of celerity calculations: probes 1 and 5 first recording of 5\% of the wave amplitude}
-	\label{smallwavefronttable}
+		\caption{Table of celerity calculations: probes 1 and 5 first recording of 5\% of the wave amplitude}
+		\label{smallwavefronttable}
 	\end{table}
 	For the first 2 waves, the measured celerities are closest to the group velocity (or the shallow-water celerity), whereas for the third wave, the measured celerity is nearest to the theoretical celerity (this could be due to experimental error, or partially to the fact that out of the 3 sets of waves, the 3rd one corresponds to a deeper-water regime).
 	\subsection{Different speeds of energy propagation in the wave front}
@@ -289,7 +289,7 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\label{largewavefronttable}
 	\end{table}
 	Here, all the measured celerities are nearest in value to the group velocity.\\
-	Different speeds of energy propagation in the wave front are observed as the more reliable of all the theoretical celerities was shown here to be the one that fluctuates depending on the depth regime of the water observed: the group velocity. Reasons for this include probes 1 and 5's proximities to the wavemakers performing opposing actions (and the absorbing plate), as well as the mismatch between the nonlinear nature of the waves and the supposedly linear wave generation, and finally, experimental errors. Certain fluctuations are also more likely to have inaccuracies, as the absorbing mechanism is more effective at reducing the longer waves: shorter waves are therefore more likely to be counteracted by unabsorbed reflections, possibly explaining the 3rd wave's measured celerity in the previous section. 
+	Different speeds of energy propagation in the wave front are observed as the more reliable of all the theoretical celerities was shown here to be the one that fluctuates depending on the depth regime of the water observed: the group velocity. Reasons for this include probes 1 and 5's proximities to the wavemakers performing opposing actions (and the absorbing plate), as well as the mismatch between the nonlinear nature of the waves and the supposedly linear wave generation, and finally, experimental errors. Certain fluctuations are also more likely to have inaccuracies, as the absorbing mechanism is more effective at reducing the longer waves: shorter waves are therefore more likely to be counteracted by non-absorbed reflections, possibly explaining the 3rd wave's measured celerity in the previous section. 
 	\subsection{Random wave record analysis}
 	%Analyse a random wave record for probe 3. Calculate the significant wave height	($H_s$) and the mean zero-crossing period ($T_z$) of this wave sequence.
 	\begin{figure}[H]
@@ -301,10 +301,11 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\caption{Random Sea State: randomly generated waves - analysis at different scales}
 		\label{randomgraph}
 	\end{figure}
-	Each period and height in the random wave sequence represented in Figure \ref{randomgraph} was collected programatically, from which the root mean square wave height $H_{RMS}$, the significant wave height $H_s$ and the mean zero-crossing period $T_z = T_0$ have been computed using the following formulae where N is the number of periods in the record, total:
+	Each period and height in the random wave sequence represented in Figure \ref{randomgraph} was collected programatically, from which the root mean square wave height $H_{RMS}$, the significant wave height $H_s = H_{1/3}$ and the mean zero-crossing period $T_z = T_0$ have been computed using the following formulae where N is the number of periods in the record, total:
 	\begin{itemize}
 		\item \( \displaystyle H_{RMS} = (\frac{1}{2}\sum_{i = 1}^{N}H_i^2)^{1/2} = \) \textbf{4.199038328054618 cm}
-		\item \( \displaystyle H_s=\sqrt{2} H_{RMS} =\) \textbf{5.938336952459287 cm}
+		\item \( \displaystyle H_{1/3}= \frac{1}{N/3} \sum_{j = 1}{N/3} H_j =\) 3.735569331325301\\
+		or if Rayleigh distribution is assumed:  \( \displaystyle H_s= \sqrt{2} * H_{RMS} =\)\textbf{5.938336952459287 cm}
 		\item \( \displaystyle T_0 = \frac{1}{N}\sum_{i = 1}^{N} T_{0,i} =\) \textbf{0.8984638554216868 s}
 	\end{itemize}
 	\subsection{Maximum wave height for 3 hour storm at project site}
@@ -325,7 +326,7 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\caption{Bathymetrics of the selected real-world location, from Digimaps \cite{digimap}}
 		\label{bathymetrics}
 	\end{figure}
-	The measured celerity is needed, so it was calculated per period programatically, as well as the Froude number. These were used to calculate the scaled celerities, wavelengths, periods, and amplitudes per experimental period for the real-world site selected, and establish a scaled timeline:\\
+	The measured celerity is needed, so it was calculated per period, as well as the Froude number. These were thereafter used in order to calculate the scaled celerities, wavelengths, periods, and amplitudes per experimental period for the real-world site selected, and establish a scaled timeline (see Figures \ref{randcelerity} and \ref{randscaled}):\\
 	\begin{figure}[H]
 		\centering
 		\includegraphics[clip, trim = {3cm 0.2cm 2.5cm 0.4cm},width=\textwidth]{../graphs/RandCelerities.png}
@@ -338,8 +339,21 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\caption{Randomly Generated Waves Plot: Scaled amplitudes over a scaled timeline per experimental period over time for real-world location with depth h = 63m}
 		\label{randscaled}
 	\end{figure}
-	There are approximately 62.4 minutes of data for the real world site with depth $h = 63$m. To simulate a 3-hour storm at the real-world site, this data would have to be repeated 3 times. 
+	There are approximately 62.4 minutes of data for the real world site with depth $h = 63$m. To simulate a 3-hour storm at the real-world site, the length of the experiment would have to be tripled. Therefore, Rayleigh distribution shall be applied to find expected maximum wave height for a 3-hour storm using the following formulae with $N = x*n$ where n is the number of peaks and x is approximately 3 (assuming that repeating the experiment 3 times would yield approximately 3 times as many peaks):\\
+	\begin{itemize}
+		\item $H_s = \sqrt{2} * H_{RMS} =$ 9.32845193095314 m (the formula for $H_{RMS}$ being the same as previously mentioned)
+		\item $H_{max} = \sqrt{ln(N)} * H_{RMS} = $ \textbf{17.278685294962006} m
+	\end{itemize}
+	Given that the highest amplitude in the scaled data is 16.261418249999995m: the value found by the Rayleigh distribution here was not very far from it. The rule of thumb for Rayleigh distributions is that the maximum wave height is generally twice the significant wave height (which would be 18.6569038619): the value found here is in between the actual maximum wave height in the data, and twice the significant wave height. The Rayleigh distribution is very much applicable for random wave sequence analyses, and is therefore applicable here.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{../graphs/Rayleigh.png}
+		\caption{Rayleigh Distribution for Random Sea State at location with depth h = 63}
+		\label{rayleigh}
+	\end{figure}
 	\section{Conclusions}
+	In summary, these experiments showed that the generation of regular waves does not produce perfectly sinusoidal waves, that the speeds of energy propagation at the wave front are different based on where in the wave flume they are measured as well as the development (percentage of the significant height) of the wave measured, and that experimental errors are inevitable as the laboratory setup is imperfect (reflections, probe calibration...)\\
+	The random wave generation also allowed for the modelling of a random sea state that could be scaled to a real-world site, as well as probabilistic analyses of the scaled data in order to predict storm conditions.
 	\begin{thebibliography}{1}
 		\bibitem{experimentdesc} Wave generation in a wave-flume experiment and analysis of experimental wave data - Experiment Description and Report Assignment
 		\bibitem{code} Github Repository by user Nathalex (Nathalie Alexandra "Alex" Tcherdakoff)\\ \href{https://github.com/nathalex/Wave-Flume-Lab-Report}{\textbf{\textit{https://github.com/nathalex/Wave-Flume-Lab-Report}}}
