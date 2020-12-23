@@ -294,10 +294,10 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 	%Analyse a random wave record for probe 3. Calculate the significant wave height	($H_s$) and the mean zero-crossing period ($T_z$) of this wave sequence.
 	\begin{figure}[H]
 		\centering
-		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=\textwidth]{../graphs/Rand1thGraph.png}}
+		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=0.8\textwidth]{../graphs/Rand1thGraph.png}}
 		\\
-		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=\textwidth]{../graphs/Rand5thGraph.png}}\\
-		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=\textwidth]{../graphs/Rand50thGraph.png}}
+		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=0.8\textwidth]{../graphs/Rand5thGraph.png}}\\
+		\subfloat{\includegraphics[clip, trim = {3cm 0.2cm 3cm 1cm},width=0.8\textwidth]{../graphs/Rand50thGraph.png}}
 		\caption{Random Sea State: randomly generated waves - analysis at different scales}
 		\label{randomgraph}
 	\end{figure}
@@ -308,10 +308,42 @@ Laboratory Report - Wave-flume experiment: wave generation and wave-data analysi
 		\item \( \displaystyle T_0 = \frac{1}{N}\sum_{i = 1}^{N} T_{0,i} =\) \textbf{0.8984638554216868 s}
 	\end{itemize}
 	\subsection{Maximum wave height for 3 hour storm at project site}
-	Use Froude similarity law to scale the random wave experimental data to full-scale	conditions of your Design Project site. Calculate the corresponding values of $H_s$, $T_z$ and the duration of the wave sequence. Assuming Rayleigh distribution, find	expected maximum wave height for a 3 hours storm at your project site. Comment on the applicability of Rayleigh distribution.
+	%Use Froude similarity law to scale the random wave experimental data to full-scale	conditions of your Design Project site. Calculate the corresponding values of $H_s$, $T_z$ and the duration of the wave sequence. Assuming Rayleigh distribution, find expected maximum wave height for a 3 hours storm at your project site. Comment on the applicability of Rayleigh distribution.
+	Using the Froude similarity law with the following formulae, the random wave experimental data can be scaled to full-scale conditions on a real-world site:
+	\begin{itemize}
+		\item Froude Number: $Fr = \frac{C}{\sqrt{gh}}$
+		\item $L = C * T$
+		\item $Fr_1 = Fr_2 \to \frac{C_1}{C_2} = \sqrt{\frac{h_1}{h_2}}\to \frac{T_2}{T_1} = \sqrt{\frac{L_2}{L_1}}$
+		\item $C_2 = \frac{C_1}{\sqrt{\frac{h_1}{h_2}}}$
+		\item $\frac{h_1}{L_1} = \frac{h_2}{L_2} \to L_2 = \frac{L_1 h_2}{h_1} \to T_2 = \frac{L_2}{C_2}$
+		\item $\frac{A_1}{L_1} = \frac{A_2}{L_2} \to A_2 = \frac{L_2 A_1}{L_1}$
+	\end{itemize}
+	The wave flume has water depth of $h_1 = 0.40$ m. Using a real-world site at coordinates (50.50998, -0.58361) (or Eastings: 671327 Northings: 5598124) with a water depth of $h = 63m$ \cite{digimap}:
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{../graphs/marine_roam.pdf}
+		\caption{Bathymetrics of the selected real-world location, from Digimaps \cite{digimap}}
+		\label{bathymetrics}
+	\end{figure}
+	The measured celerity is needed, so it was calculated per period programatically, as well as the Froude number. These were used to calculate the scaled celerities, wavelengths, periods, and amplitudes per experimental period for the real-world site selected, and establish a scaled timeline:\\
+	\begin{figure}[H]
+		\centering
+		\includegraphics[clip, trim = {3cm 0.2cm 2.5cm 0.4cm},width=\textwidth]{../graphs/RandCelerities.png}
+		\caption{Randomly Generated Waves Plot: Celerity and Froude number per period over time}
+		\label{randcelerity}
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[clip, trim = {3cm 0.2cm 2.5cm 0.4cm},width=\textwidth]{../graphs/RandScaled.png}
+		\caption{Randomly Generated Waves Plot: Scaled amplitudes over a scaled timeline per experimental period over time for real-world location with depth h = 63m}
+		\label{randscaled}
+	\end{figure}
+	There are approximately 62.4 minutes of data for the real world site with depth $h = 63$m. To simulate a 3-hour storm at the real-world site, this data would have to be repeated 3 times. 
 	\section{Conclusions}
 	\begin{thebibliography}{1}
 		\bibitem{experimentdesc} Wave generation in a wave-flume experiment and analysis of experimental wave data - Experiment Description and Report Assignment
 		\bibitem{code} Github Repository by user Nathalex (Nathalie Alexandra "Alex" Tcherdakoff)\\ \href{https://github.com/nathalex/Wave-Flume-Lab-Report}{\textbf{\textit{https://github.com/nathalex/Wave-Flume-Lab-Report}}}
+		\bibitem{digimap} Digimap Marine Roam\\
+		\href{https://digimap.edina.ac.uk/roam/map/marine}{\textit{\textbf{https://digimap.edina.ac.uk/roam/map/marine}}}
 	\end{thebibliography}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.28)  22 DEC 2020 20:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.28)  23 DEC 2020 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,53 +566,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--290
 File: ../graphs/Rand1thGraph.png Graphic file (type png)
 <use ../graphs/Rand1thGraph.png>
 Package pdftex.def Info: ../graphs/Rand1thGraph.png  used on input line 297.
-(pdftex.def)             Requested size: 540.31767pt x 193.57458pt.
+(pdftex.def)             Requested size: 432.25578pt x 154.86066pt.
 <../graphs/Rand5thGraph.png, id=263, 1084.05pt x 361.35pt>
 File: ../graphs/Rand5thGraph.png Graphic file (type png)
 <use ../graphs/Rand5thGraph.png>
 Package pdftex.def Info: ../graphs/Rand5thGraph.png  used on input line 299.
-(pdftex.def)             Requested size: 540.31767pt x 193.57458pt.
+(pdftex.def)             Requested size: 432.25578pt x 154.86066pt.
 <../graphs/Rand50thGraph.png, id=265, 1084.05pt x 361.35pt>
 File: ../graphs/Rand50thGraph.png Graphic file (type png)
 <use ../graphs/Rand50thGraph.png>
 Package pdftex.def Info: ../graphs/Rand50thGraph.png  used on input line 300.
-(pdftex.def)             Requested size: 540.31767pt x 193.57458pt.
+(pdftex.def)             Requested size: 432.25578pt x 154.86066pt.
 [10] [11 <../graphs/Rand1thGraph.png> <../graphs/Rand5thGraph.png> <../graphs/R
 and50thGraph.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
+<../graphs/marine_roam.pdf, id=290, 845.0471pt x 597.51233pt>
+File: ../graphs/marine_roam.pdf Graphic file (type pdf)
+<use ../graphs/marine_roam.pdf>
+Package pdftex.def Info: ../graphs/marine_roam.pdf  used on input line 324.
+(pdftex.def)             Requested size: 540.31767pt x 382.06012pt.
+<../graphs/RandCelerities.png, id=293, 1084.05pt x 361.35pt>
+File: ../graphs/RandCelerities.png Graphic file (type png)
+<use ../graphs/RandCelerities.png>
+Package pdftex.def Info: ../graphs/RandCelerities.png  used on input line 331.
+(pdftex.def)             Requested size: 540.31767pt x 200.55904pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--334
+
+ []
+
+<../graphs/RandScaled.png, id=295, 1084.05pt x 361.35pt>
+File: ../graphs/RandScaled.png Graphic file (type png)
+<use ../graphs/RandScaled.png>
+Package pdftex.def Info: ../graphs/RandScaled.png  used on input line 337.
+(pdftex.def)             Requested size: 540.31767pt x 200.55904pt.
+[12 <../graphs/marine_roam.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
+ [13 <../graphs/RandCelerities.png> <../graphs/RandScaled.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
  (./labreport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
 Package rerunfilecheck Info: File `labreport.out' has not changed.
 (rerunfilecheck)             Checksum: E90298D2596E7FC83E086F40EB0073DE;944.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 349.
  ) 
 Here is how much of TeX's memory you used:
- 7012 strings out of 492982
- 109790 string characters out of 6134896
- 207807 words of memory out of 5000000
- 10445 multiletter control sequences out of 15000+600000
- 8254 words of font info for 29 fonts, out of 8000000 for 9000
+ 7038 strings out of 492982
+ 110366 string characters out of 6134896
+ 208238 words of memory out of 5000000
+ 10462 multiletter control sequences out of 15000+600000
+ 8600 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,42p,1094b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,42p,1094b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
-pfb>
-Output written on labreport.pdf (12 pages, 1870629 bytes).
+dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on labreport.pdf (13 pages, 2034666 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
+ 74 named destinations out of 1000 (max. 500000)
+ 428 words of extra memory for PDF output out of 10000 (max. 10000000)
 
